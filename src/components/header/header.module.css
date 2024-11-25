@@ -1,0 +1,72 @@
+.menuBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-sizing: border-box;
+    background-color: #00435D;
+    overflow: hidden;
+}
+
+.menuIcon {
+    width: 50px;
+    height: auto;
+    border-radius: 100%;
+    margin: 12px;
+    max-width: 100%;
+    z-index: 3;
+}
+
+.linkDiv {
+    display: flex;
+    gap: 10px;
+    padding-right: 30px;
+    max-width: 100%;
+}
+
+.link {
+    font-size: 18px;
+    padding: 27px 10px;
+    margin-right: 10px;
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    background-color: #00435D;
+    max-width: 100%;
+}
+
+.sideMenu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #002E40;
+    overflow-x: hidden;
+    transition: 1.5s;
+    padding-top: 60px;
+    z-index: 2;
+}
+
+.nameTi {
+    height: 80px;
+    font-size: 18px;
+    margin-top: -45px;
+    padding-left: 80px;
+}
+
+.sidelink {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+    background-color: #25718f;
+    transition: 0.3s;
+    margin-top: 5px;
+}
